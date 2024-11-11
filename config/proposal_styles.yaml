@@ -1,0 +1,34 @@
+style_rules:
+  executive_summary:
+    font: "Arial"
+    size: 14
+    color: "black"
+  scope:
+    font: "Calibri"
+    size: 12
+    color: "black"
+  value_proposition:
+    font: "Calibri"
+    size: 12
+    color: "black"
+  approach:
+    font: "Calibri"
+    size: 12
+    color: "black"
+  timeline:
+    font: "Calibri"
+    size: 12
+    color: "black"
+  team:
+    font: "Calibri"
+    size: 12
+    color: "black"
+  pricing:
+    font: "Calibri"
+    size: 12
+    color: "black"
+  appendices:
+    font: "Calibri"
+    size: 12
+    color: "black"
+  # Add more section-specific style rules as needed

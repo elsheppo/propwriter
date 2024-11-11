@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #2e6c80; }
+        .member { margin-bottom: 20px; }
+        .member h2 { color: #3a7ea5; }
+        p { line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Team</h1>
+        {% for member in team %}
+            <div class="member">
+                <h2>{{ member.name }} - {{ member.role }}</h2>
+                <p>{{ member.description }}</p>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

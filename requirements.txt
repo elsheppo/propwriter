@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+openai
+jinja2
+markdown
+python-docx
+pdfkit
+pyyaml
+asyncio
+aiofiles
+python-dotenv

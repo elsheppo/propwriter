@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timeline</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h1 { color: #2e6c80; }
+        p { line-height: 1.6; }
+        ul { line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Timeline</h1>
+        <ul>
+            {% for milestone in timeline %}
+                <li>{{ milestone }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
